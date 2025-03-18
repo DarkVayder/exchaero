@@ -1,0 +1,9 @@
+/* Ensure Full Height */
+html, body, #root {
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
