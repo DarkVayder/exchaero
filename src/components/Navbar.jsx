@@ -7,9 +7,11 @@ const Navbar = () => {
 
   return (
     <nav className="p-4 bg-white text-black flex justify-between items-center border-b border-gray-300 relative z-50">
+      <Link to="/">
       <h1 className="text-lg font-bold">
         EX <span className="text-gray-500">chaero</span>
       </h1>
+      </Link>
 
       {/* Desktop Navigation */}
       <div className="hidden md:flex space-x-6 font-semibold">
