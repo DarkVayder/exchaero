@@ -3,6 +3,7 @@ import ExchangeRates from "../components/ExchangeRates";
 import Header from "../components/Header";
 import RateAlert from "../components/RateAlert";
 import TrustedBy from "../components/TrustedBy";
+import Reviews from "../components/Reviews";
 const Home = () => {
   return (
     <div className="p-6">
@@ -11,6 +12,7 @@ const Home = () => {
       <ExchangeRates />
       <RateAlert />
       <TrustedBy />
+      <Reviews />
     </div>
   );
 };
